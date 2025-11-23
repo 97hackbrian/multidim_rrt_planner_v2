@@ -128,7 +128,7 @@ class RRT3DNode(Node):
             1.0, 0.0, 0.0, 1.0], [0.2, 0.2, 0.2], [self.start_position[0], self.start_position[1],
                                                    self.start_position[2]]))
         self.marker_array.markers.append(create_marker(Marker.SPHERE, 1, [
-            0.0, 0.0, 1.0, 1.0], [0.2, 0.2, 0.2], [self.goal_position[0], self.goal_position[1],
+            0.0, 0.5, 1.0, 1.0], [0.2, 0.2, 0.2], [self.goal_position[0], self.goal_position[1],
                                                    self.goal_position[2]]))
 
         # Run the RRT
